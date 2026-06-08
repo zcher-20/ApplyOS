@@ -9,12 +9,12 @@
 
 | Output | Description |
 |--------|-------------|
-| 🎯 **ATS Match Score** | 0–100 score with sub-score breakdown (required skills, preferred skills, keyword density, experience alignment) |
-| ⚠️ **Skill Gap Analysis** | Per-skill match status with evidence from the resume; prioritized gap remediation with effort tiers |
-| ✍️ **Tailored Resume Bullets** | Rewrites every bullet to embed ATS keywords, front-load action verbs, and quantify impact |
-| 🎤 **Interview Prep** | Behavioral + technical + company-specific questions with STAR scaffolds |
-| 💡 **Company Talking Points** | RAG-grounded evidence from company docs / notes |
-| 📊 **Quality Evaluation** | Hallucination checker (LLM judge) + rule-based rubric across 5 dimensions |
+|  **ATS Match Score** | 0–100 score with sub-score breakdown (required skills, preferred skills, keyword density, experience alignment) |
+|  **Skill Gap Analysis** | Per-skill match status with evidence from the resume; prioritized gap remediation with effort tiers |
+|  **Tailored Resume Bullets** | Rewrites every bullet to embed ATS keywords, front-load action verbs, and quantify impact |
+|  **Interview Prep** | Behavioral + technical + company-specific questions with STAR scaffolds |
+|  **Company Talking Points** | RAG-grounded evidence from company docs / notes |
+|  **Quality Evaluation** | Hallucination checker (LLM judge) + rule-based rubric across 5 dimensions |
 
 ---
 
