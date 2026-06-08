@@ -1,0 +1,10 @@
+.env
+__pycache__/
+*.pyc
+venv/
+.chroma/
+data/chroma_db/
+data/uploads/
+*.db
+node_modules/
+dist/
