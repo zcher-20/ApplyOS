@@ -5,7 +5,7 @@
 
 ---
 
-## ✨ What It Does
+##  What It Does
 
 | Output | Description |
 |--------|-------------|
@@ -18,13 +18,13 @@
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 <img width="719" height="416" alt="Screenshot 2026-06-07 at 9 57 56 PM" src="https://github.com/user-attachments/assets/71497b2b-84c7-4941-8542-1818216d7ac0" />
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Layer | Technology |
 |-------|-----------|
@@ -41,7 +41,7 @@
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ```bash
 # 1. Clone
@@ -64,7 +64,7 @@ uvicorn backend.main:app --reload --port 8000
 
 ---
 
-## 📡 API Reference
+##  API Reference
 
 ### `POST /analyze`
 Run the full multi-agent pipeline.
@@ -91,7 +91,7 @@ Get detailed results for a session.
 
 ---
 
-## 📈 Evaluation Metrics
+##  Evaluation Metrics
 
 | Dimension | Method | Target |
 |-----------|--------|--------|
@@ -104,7 +104,7 @@ Get detailed results for a session.
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 ApplyOS/
@@ -139,7 +139,7 @@ ApplyOS/
 
 ---
 
-## 🔑 Key Technical Decisions
+##  Key Technical Decisions
 
 **Why LangGraph over a simple LangChain chain?**
 LangGraph enables a proper stateful DAG with parallel node execution — `parse_resume` and `analyze_job` run concurrently, then `skill_gap` waits for both. This cuts wall-clock time vs sequential chains and gives us retry/interrupt semantics at the node level.
